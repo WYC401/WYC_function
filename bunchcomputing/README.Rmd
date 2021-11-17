@@ -1,0 +1,50 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# bunchcomputing
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of bunchcomputing is to compute summary statistics(means,median) on every columns in the dataframe.
+
+## Installation
+
+bunchcomputing is not yet on CRAN. But, you can download it from this repository using the following R command:
+
+``` r
+install.packages("bunchcomputing")
+```
+
+And the development version from [GitHub](https://github.com/) with:
+
+``` r
+devtools::install_github("WYC401/WYC_function")
+```
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(bunchcomputing)
+mean_all_numeric_variables(data.frame(data_1=c(1,2,3),data_2=c(0.2,0.4,0.4)))
+
+## basic example code
+```
+
+The package is special because it can ignore the non-numeric columns.
+```{r}
+mean_all_numeric_variables(data.frame(data_1=c(“a”,"b","c"),data_2=c(0.2,0.4,0.4)))
+```
