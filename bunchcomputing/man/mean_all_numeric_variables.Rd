@@ -19,3 +19,6 @@ Calculating the mean of all the numeric columns
 
 This is a function computing the summary statistics for each numeric columns
 }
+\examples{
+mean_all_numeric_variables(base::data.frame(data_1=c(1,2,3),data_2=c(0.2,0.4,0.4)))
+}

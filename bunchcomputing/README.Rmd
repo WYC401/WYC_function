@@ -46,5 +46,6 @@ mean_all_numeric_variables(data.frame(data_1=c(1,2,3),data_2=c(0.2,0.4,0.4)))
 
 The package is special because it can ignore the non-numeric columns.
 ```{r}
-mean_all_numeric_variables(data.frame(data_1=c(“a”,"b","c"),data_2=c(0.2,0.4,0.4)))
+library(bunchcomputing)
+mean_all_numeric_variables(base::data.frame(a=c(1,2),b=c("d","d")))
 ```

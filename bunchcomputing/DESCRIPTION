@@ -1,18 +1,22 @@
 Package: bunchcomputing
-Title: What the Package Does (One Line, Title Case)
+Title: Compute statistics on bunch of columns
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Yicheng",
+           family = "Wang",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+           email = "wyc981229@gmail.com")
+Description: Do the calculation of some summary statistics like mean on each numeric column of a dataframe. 
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 Imports: 
-    magrittr
+    dplyr,
+    magrittr,
+    tidyr,
+    tidyselect
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
