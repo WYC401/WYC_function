@@ -2,9 +2,7 @@
 % Please edit documentation in R/mean_all_numeric_variables.R
 \name{mean_all_numeric_variables}
 \alias{mean_all_numeric_variables}
-\title{Calculating the mean of all the numeric columns
-
-This is a function computing the summary statistics for each numeric columns}
+\title{Calculating the mean of all the numeric columns}
 \usage{
 mean_all_numeric_variables(tibble_1)
 }
@@ -12,12 +10,10 @@ mean_all_numeric_variables(tibble_1)
 \item{tibble_1}{an object of data.frame, for which tibbles are suggested.}
 }
 \value{
-A vector show the means of each numeric column
+A vector shows the means of each numeric column
 }
 \description{
-Calculating the mean of all the numeric columns
-
-This is a function computing the summary statistics for each numeric columns
+This is a function computing the summary statistics for each numeric column.
 }
 \examples{
 mean_all_numeric_variables(base::data.frame(data_1=c(1,2,3),data_2=c(0.2,0.4,0.4)))

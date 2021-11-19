@@ -15,12 +15,6 @@ bunchcomputing is not yet on CRAN. But, you can download it from this
 repository using the following R command:
 
 ``` r
-install.packages("bunchcomputing")
-```
-
-And the development version from [GitHub](https://github.com/) with:
-
-``` r
 devtools::install_github("WYC401/WYC_function")
 ```
 
