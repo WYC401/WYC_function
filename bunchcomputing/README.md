@@ -7,7 +7,7 @@
 <!-- badges: end -->
 
 The goal of bunchcomputing is to compute summary
-statistics(means,median) on every columns in the dataframe.
+statistics(means,median) on every column in the dataframe.
 
 ## Installation
 

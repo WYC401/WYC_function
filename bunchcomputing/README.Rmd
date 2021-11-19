@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of bunchcomputing is to compute summary statistics(means,median) on every columns in the dataframe.
+The goal of bunchcomputing is to compute summary statistics(means,median) on every column in the dataframe.
 
 ## Installation
 
